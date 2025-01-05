@@ -1,5 +1,5 @@
 <h2>Wine Quality Analysis</h2>
-<h3>Obervations:
+<h3>Obervations: <br>
 
 
 Analyzed fixed acidity, violatile acidity and cirtic acid.
@@ -21,7 +21,7 @@ The quality would be 6
 <h2>Conclusions</h2>
 <h3>
 From the given data, we can use simple visualisations to get a sense of how data are distributed.
-<br>
+
 <br>
 
 We can use various measures of central tendency such as mean, median and mode to represent a group of observations.

@@ -1,6 +1,7 @@
 <h2>Wine Quality Analysis</h2>
-<h3>Obervations: <br>
+<h3>Obervations:
 
+<br>
 
 Analyzed fixed acidity, violatile acidity and cirtic acid.
 

@@ -25,6 +25,6 @@ From the given data, we can use simple visualisations to get a sense of how data
  <br>
 
 I have used various measures of central tendency such as mean, median and mode to represent a group of observations.
-<br>
+<br> <br>
 The type of central tendency measure to use depends on the type and the distribution of the data.
 </h3>

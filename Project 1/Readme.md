@@ -24,7 +24,7 @@ The quality would be 6
 From the given data, we can use simple visualisations to get a sense of how data are distributed.
  <br>
 
-We can use various measures of central tendency such as mean, median and mode to represent a group of observations.
+I have used various measures of central tendency such as mean, median and mode to represent a group of observations.
 <br>
 
 The type of central tendency measure to use depends on the type and the distribution of the data.

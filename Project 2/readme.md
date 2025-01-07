@@ -2,7 +2,7 @@
   Descriptive Statistics Case Study Project
 </h1>
 <h3>
-  Observations:
+  Observations: <br>
   id of the Employees <br> <br>
   Their respective Groups and Salaries <br> <br>
   Their healthy eating and Active lifestyle <br> <br>

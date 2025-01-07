@@ -12,7 +12,7 @@
 </h3>
 <h2>Conclusions</h2>
 <h3>
-  1.The only employee seemingly facing a discrepancy in salary as compared to healthy_eating is employee who is having id = 26. <br> <br>
+  1.The only employee seemingly facing a discrepancy in salary as compared to healthy eating is employee who is having id = 26. <br> <br>
   2.The employee with id having 26 has a salary of 700. <br> <br>
   3.From the given data, we can use simple visualisations to get a sense of how data are distributed. <br> <br>
   4.I can conduct preliminary analyses simply by subsetting data sets using well thought out thresholds and conditions.

@@ -1,5 +1,5 @@
-Coffee Sales Analysis Project
-Overview
+<h1>Coffee Sales Analysis Project</h1> <br>
+<h2>Overview</h2> <br>
 This project analyzes coffee sales data from a vending machine to uncover trends, patterns, and customer preferences. The analysis includes detailed exploratory data analysis (EDA) to identify purchasing behaviors, sales trends, and peak transaction times. These insights can aid inventory management, product optimization, and decision-making.
 
 Dataset Details

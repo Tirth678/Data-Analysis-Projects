@@ -1,6 +1,7 @@
 <h1>Coca-Cola Stock Analysis</h1>
 <br>
-Overview
+<h2>Overview</h2>
+<br> <br>
 
 This project aims to analyze historical Coca-Cola stock data to uncover trends, patterns, and insights into stock price behavior and trading volume. Through data cleaning, feature engineering, and visualizations, the project provides a comprehensive understanding of Coca-Cola's stock performance.
 

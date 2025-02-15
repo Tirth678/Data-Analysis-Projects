@@ -45,5 +45,4 @@ The data used in this analysis is obtained from Yahoo Finance using the `yfinanc
 - matplotlib
 - yfinance
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+

@@ -1,110 +1,49 @@
-Coca-Cola Stock Analysis
+# Coca-Cola Stock Analysis
 
-Overview
+## Overview
+This project focuses on analyzing historical Coca-Cola stock data to identify trends, patterns, and insights related to stock price behavior and trading volume. The analysis includes various visualizations and statistical metrics to understand the stock's performance over time.
 
-This project focuses on analyzing historical Coca-Cola stock data to identify trends, patterns, and insights related to stock price behavior and trading volume. By applying data cleaning, feature engineering, and visualization techniques, it provides a comprehensive understanding of the stock's performance over time.
+## Key Objectives
+- Analyze stock price trends using moving averages.
+- Examine trading volume patterns.
+- Investigate volatility and its impact on stock performance.
+- Explore correlations between different stock metrics.
+- Compare trading behavior on weekdays vs weekends.
 
-Dataset Details
+## Data Sources
+The data used in this analysis is obtained from Yahoo Finance using the `yfinance` library. It includes historical stock data for Coca-Cola (ticker: KO) from January 1, 2015, to December 31, 2023.
 
-Source: Coca-Cola Stock Data
+## Analysis Steps
+1. **Data Collection**: Fetch historical stock data using `yfinance`.
+2. **Data Cleaning**: Handle missing values and ensure data consistency.
+3. **Feature Engineering**: Calculate moving averages, daily returns, and volatility.
+4. **Exploratory Data Analysis**: Perform initial data exploration to understand the dataset.
+5. **Visualization**: Create various plots to visualize trends and patterns.
+6. **Behavioral Analysis**: Analyze trading volume and behavior over time.
 
-Columns:
+## Visualizations Included
+- Stock prices with 20-day and 50-day moving averages.
+- Correlation heatmap of stock metrics.
+- Volatility trends over time.
+- Monthly trading volume analysis.
+- Weekend vs weekday trading volume comparison.
 
-Date: Trading date.
+## Usage Instructions
+1. Ensure you have the required libraries installed:
+   ```bash
+   pip install pandas numpy seaborn matplotlib yfinance
+   ```
+2. Open the `Notebook.ipynb` file in Jupyter Notebook or JupyterLab.
+3. Run the cells sequentially to execute the analysis.
+4. The cleaned dataset is saved as `cleaned_coca_cola_stock.csv` for further use.
 
-Open: Opening price of the stock.
+## Dependencies
+- Python 3.7+
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- yfinance
 
-High: Highest price during the day.
-
-Low: Lowest price during the day.
-
-Close: Closing price of the stock.
-
-Volume: Number of shares traded.
-
-Dividends: Dividends paid on the day.
-
-Stock Splits: Stock split ratio.
-
-Tools and Technologies Used
-
-Programming Language: Python
-
-Libraries:
-
-pandas: Data manipulation and cleaning.
-
-matplotlib and seaborn: Data visualization.
-
-Environment: Jupyter Notebook
-
-Project Workflow
-
-Data Preparation
-
-Loaded Coca-Cola stock data from a CSV file or Yahoo Finance API.
-
-Cleaned data by:
-
-Filling missing values using forward fill.
-
-Ensuring data types were consistent.
-
-Feature Engineering
-
-Calculated moving averages (20-day and 50-day) to identify trends.
-
-Computed daily percentage changes to measure performance.
-
-Measured rolling standard deviations to analyze stock volatility.
-
-Exploratory Data Analysis (EDA)
-
-Summary Statistics: Generated key metrics like mean, standard deviation, and range.
-
-Visualizations:
-
-Line charts showing stock prices and moving averages over time.
-
-Bar charts analyzing monthly trading volumes.
-
-Heatmaps illustrating correlations among stock attributes.
-
-Volatility trends highlighting periods of stability and instability.
-
-Key Insights
-
-Stock Price Trends: Moving averages revealed consistent upward trends over long periods.
-
-Trading Volume: Monthly analysis indicated spikes during significant market events.
-
-Volatility: Certain periods showed increased volatility, often correlating with major news or events.
-
-Correlations: Strong relationships observed between opening and closing prices.
-
-How to Use This Project
-
-Clone Repository: Download the project files from the source link.
-
-Install Dependencies: Run the following command to install required libraries:
-
-pip install pandas matplotlib seaborn yfinance
-
-Execute the Notebook: Open the Jupyter Notebook and run the cells to reproduce the analysis and visualizations.
-
-Future Enhancements
-
-Expand the analysis to compare Coca-Cola's stock with competitors in the beverage industry.
-
-Incorporate macroeconomic indicators (e.g., inflation rates, GDP growth) to understand their impact on stock performance.
-
-Build an interactive dashboard for dynamic, real-time analysis.
-
-Acknowledgments
-
-Dataset: Provided via Yahoo Finance and public data repositories.
-
-Inspiration: Adapted from open-source stock analysis projects and resources.
-
-This project serves as a foundation for further analysis and offers valuable insights for investors and analysts interested in Coca-Cola's stock performance.
-
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
